@@ -24,7 +24,7 @@ const Register = () => {
   }
   return (
     <div>
-    <form onSubmit={handleSubmit}>
+    <form className='form-container' onSubmit={handleSubmit}>
       <h2>Register</h2>
       <input name="username" placeholder="Enter a username" type="username" onChange={handleChange} />
       <input name="email" placeholder="Enter a email" type="email" onChange={handleChange} />

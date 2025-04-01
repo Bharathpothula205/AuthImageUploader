@@ -23,7 +23,7 @@ try {
   }
   return (
     <div>
-     <form onSubmit={handleSubmit}>
+     <form className='form-container' onSubmit={handleSubmit}>
       <input name="email" placeholder="enter the email" type='email' onChange={handleChange}/>
       <input name="password" placeholder="enter the password" type='password' onChange={handleChange}/>
       <button type='submit'>Login</button>

@@ -5,7 +5,7 @@ import '../App.css'
 const Home = () => {
   const navigate=useNavigate();
   return (
-    <div>
+    <div className='form'>
       <button onClick={()=>navigate('/register')}>Register</button>
       <button onClick={()=>navigate('/login')}>Login</button>
     </div>
